@@ -4,6 +4,7 @@ import { movies } from "./movieDummy";
 
 function App() {
   return (
+    <div className="body">
     <div className="app-container">
       {
         movies.results.map((item) => {
@@ -13,6 +14,7 @@ function App() {
           )
         })
       }
+    </div>
     </div>
   );
 }
